@@ -1,0 +1,2 @@
+comando para hacer dump trafic: tpcdump
+Para capturar tráfico en la interfaz predeterminada usá sudo tcpdump, para capturar en una interfaz específica sudo tcpdump -i eth0, guardar la captura en un archivo con sudo tcpdump -w captura.pcap, leer un archivo con sudo tcpdump -r captura.pcap, filtrar por IP sudo tcpdump host 192.168.1.10, por protocolo con sudo tcpdump tcp (o udp, icmp), por puerto con sudo tcpdump port 80, mostrar más detalles con sudo tcpdump -vvv, limitar la captura a N paquetes con sudo tcpdump -c 10, y ver solo cabeceras con sudo tcpdump -s 0.

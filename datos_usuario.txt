@@ -1,1 +1,2 @@
 “Usuario=vagrant”
+model name	: Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
