@@ -1,0 +1,83 @@
+    1  ssh-keygen
+    2  ls -la 
+    3  cat .ssh/id_ed25519.pub 
+    4  pwd
+    5  ls -l
+    6  cd
+    7  mkdir repogit
+    8  ls -l
+    9  cd repogit
+   10  git clone git@github.com:Marshallhc/TP_AySO.git
+   11  cd TP_AySO/
+   12  pwd
+   13  ls -l
+   14  cat /etc/os-release
+   15  man grep
+   16  grep HOME_URL /etc/os-release 
+   17  grep home_url /etc/os-release 
+   18  grep -i Home_url /etc/os-release
+   19  whoami
+   20  echo “Usuario=$(whoami)” > datos_usuario.txt 
+   21  ls -l
+   22  git add .
+   23  git config --global user.email "marshallcamara777@gmail.com"
+   24  git config --global user.name "Marshallhc"
+   25  git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+   26  git status
+   27  exit
+   28  history -a
+   29  history echo “Usuario=$(whoami)” > datos_usuario.txt 
+   30  exit
+   31  cd repogit
+   32  ls
+   33  cd TP_AySO/
+   34  cat /etc/os-release
+   35  man grep
+   36  grep HOME_URL /etc/os-release 
+   37  grep home_url /etc/os-release
+   38  grep -i Home_url /etc/os-release 
+   39  whoami 
+   40  ls
+   41  git add .
+   42  git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+   43  git status
+   44  grep
+   45  grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt 
+   46  cat datos_usuario.txt 
+   47  git add .
+   48  git commit -m “feat: Añadiendo información de CPU”
+   49  grep -v "nologin" /etc/passwd
+   50  grep -v "nologin" /etc/passwd | head -n10 | sort -t: -k7 >> lista_ordenada
+   51  cat lista_ordenada
+   52  git add .
+   53  git commit -m “ADD: Listado de usuarios ordenada”
+   54  echo "comando para hacer dump trafic: tpcdump" >> comando_dump_net
+   55  echo "Para capturar tráfico en la interfaz predeterminada usá sudo tcpdump, para capturar en una interfaz específica sudo tcpdump -i eth0, guardar la captura en un archivo con sudo tcpdump -w captura.pcap, leer un archivo con sudo tcpdump -r captura.pcap, filtrar por IP sudo tcpdump host 192.168.1.10, por protocolo con sudo tcpdump tcp (o udp, icmp), por puerto con sudo tcpdump port 80, mostrar más detalles con sudo tcpdump -vvv, limitar la captura a N paquetes con sudo tcpdump -c 10, y ver solo cabeceras con sudo tcpdump -s 0." >> comando_dump_net
+   56  git add .
+   57  git commit -m “ADD: Comando para Capturar y analizar el tráfico de red ”
+   58  git commit -m 'ADD: Comando para Capturar y analizar el tráfico de red'
+   59  cat << EOF >> README.md
+
+alumno: Helder Marshall Cámara Tapia
+318
+Turno noche
+EOF
+
+   60  git add .
+   61  git commit -m 'docs: añadir información de alumno, turno, división al archivo'
+   62  cd
+   63  history -a
+   64  .bash_history >> historial_comandos_marhsall.txt
+   65  cd .bash_history >> historial_Marshallhc.txt
+   66  cp cd .bash_history >> historial_Marshallhc.txt
+   67  cd /repogit/TP_AySO
+   68  .bash_history >> historial_comandos_marhsall.txt
+   69  cp .bash_history >> historial_comandos_marshall.txt
+   70  cd repogit
+   71  cd TP_AySO/
+   72  cp .bash_history >> historial_comandos_marshall.txt
+   73  cp .bash_history >> historial_marshall.txt
+   74  cp ~/.bash_history >> historial_marshall.txt
+   75  cp history > historial_marshall.txt
+   76  history > historial_marshall.txt
